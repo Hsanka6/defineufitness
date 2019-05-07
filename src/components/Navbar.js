@@ -1,8 +1,10 @@
 import React from 'react'
+import SignedInTabs from './SignedInTabs'
+import SignedOutTabs from './SignedOutTabs'
 
 const Navbar = () => {
     return (
-        <nav className="navbar has-navbar-fixed-top is-transparent" role="navigation" aria-label="main navigation">
+        <nav className="navbar has-navbar-fixed-top is-transparent has-text-grey-lighter" role="navigation" aria-label="main navigation">
             <div className="navbar-brand">
                 <a className="navbar-item" href="https://bulma.io">
                     <img src="https://bulma.io/images/bulma-logo.png" width="112" height="50"/>
@@ -15,28 +17,8 @@ const Navbar = () => {
                     <span aria-hidden="true"></span>
                 </a>
             </div>
-
-            <div id="navbarBasicExample" className="navbar-menu">
-                <div className="navbar-start is-size-3">
-                    <a className="navbar-item">
-                        Clients
-                    </a>
-
-                    <a className="navbar-item">
-                        Events
-                    </a>
-
-
-                </div>
-
-                <div className="navbar-end">
-                    <div className="navbar-item is-size-3">
-
-                        Login
-
-                    </div>
-                </div>
-            </div>
+            <SignedInTabs />
+            <SignedOutTabs />
         </nav>
     );
 }

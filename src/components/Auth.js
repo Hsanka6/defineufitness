@@ -2,7 +2,7 @@ import React from 'react'
 
 const Auth = () => {
     return (
-    <div className="columns is-centered">
+    <div className="columns is-centered is-desktop">
         {/*<div className="column is-half has-background-white">*/}
             {/*<div className="field">*/}
                 {/*<label className="label">Username</label>*/}
@@ -27,7 +27,7 @@ const Auth = () => {
 
 
         {/*</div>*/}
-        <div className="column is-half">
+        <div className="column is-half ">
         <div className="section">
             <div className="field">
                 <label className="label">Username</label>
@@ -49,9 +49,12 @@ const Auth = () => {
 
                 </div>
             </div>
-            <button className="button is-primary has-text-centered">Center me</button>
+            <button className="button is-primary is-centered has-text-centered">Login</button>
+
         </div>
         </div>
+
+
 
     </div>
 
@@ -61,4 +64,4 @@ const Auth = () => {
     )
 }
 
-export default Auth
+export default Auth;
