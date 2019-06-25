@@ -7,7 +7,7 @@ function SignedInTabs() {
 
         <div id="navbarBasicExample" className="navbar-menu">
             <div className="navbar-start is-size-3">
-                <a className="navbar-item has-text-grey-lighter">
+                <a className="navbar-item">
                     <NavLink to='/'>Clients</NavLink>
                 </a>
                 <a className="navbar-item">

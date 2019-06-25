@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar.js';
 import Auth from './components/Auth.js';
-import ClientList from './components/ClientList'
+import Dashboard from './components/dashboard/Dashboard.js'
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 function App() {
@@ -10,7 +10,8 @@ function App() {
         <div className="App">
             <Navbar />
             <Switch>
-                <Route exact path='/'component={ClientList} />
+                <Route path='/' component={Dashboard} />
+                
                 <Route path='/login'component={Auth} />
             </Switch>
         </div>
@@ -19,4 +20,3 @@ function App() {
 }
 
 export default App;
-

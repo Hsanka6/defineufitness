@@ -4,13 +4,13 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$gray: #757763;
+$gray: #c8c7c9;
 $beige-light: #D0D1CD;
 $beige-lighter: #EFF0EB;
-$red: #D50000;
+$red: #cc0000;
 $white: #ffffff;
+
+$black: #000000;
 
 
 $size-1: 3rem;
@@ -26,16 +26,22 @@ $widescreen-enabled: false;
 $fullhd-enabled: true;
 
 //Nav bar attributes
-$navbar-background-color: $red;
+$navbar-background-color: $black;
 $navbar-height: 5.5rem;
 $navbar-item-img-max-height: 6.0rem;
+$navbar-item-color: $black;
+$navbar-item-active-color: $black;
+$navbar-item-active-background-color: $white;
+$navbar-item-hover-color: $white;
+$navbar-dropdown-item-active-color: $white;
+
 
 //box
 $box-padding: 2rem;
 
 
 // Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
+$body-background-color: $gray;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;

@@ -23,6 +23,11 @@
   color: #61dafb;
 }
 
+.navbar {
+  background-color: transparent;
+  background-image: none;
+}
+
 
 @keyframes App-logo-spin {
   from {
